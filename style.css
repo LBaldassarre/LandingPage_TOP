@@ -13,10 +13,34 @@ body {
 
 header {
     height: 72px;
-    padding: 0 32px;
+    background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 /* ------------*/
@@ -45,6 +69,9 @@ main {
 
 footer {
     height: 72px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
