@@ -223,10 +223,44 @@ h1 {
 /* ENDING STYLING */
 
 .ending {
+    height: 500px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1 1 auto;
+}
+
+.ending-container {
+    width: 1200px;
+    height: 200px;
+    background-color: #3882F6;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ending-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.ending-content-title {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ending-content-text {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.ending-button {
+    border: 3px solid #F9FAF8; 
 }
 
 /*     END     */
