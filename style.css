@@ -64,7 +64,7 @@ main {
 
 .about {
     width: 100%;
-    padding: 80px;
+    padding: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,25 +131,22 @@ h1 {
 
 .content {
     width: 100%;
-    padding-top: 32px;
+    height: 350px;
+    padding-top: 50px;
     padding-bottom: 100px;
     margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1 1 auto;
-    gap: 32px;
+    gap: 50px;
 }
 
 .content-title {
     font-size: 38px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #1F2937;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 1 auto;
 }
 
 .card-container {
@@ -187,7 +184,8 @@ h1 {
 
 .quote {
     width: 100%;
-    height: 500px;
+    height: 400px;
+    padding-top: 50px;
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
@@ -223,7 +221,7 @@ h1 {
 /* ENDING STYLING */
 
 .ending {
-    height: 500px;
+    height: 450px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -275,10 +273,10 @@ h1 {
 /* ---------------*/
 
 footer {
-    height: 72px;
+    height: 100px;
     background-color: #1F2937;
     color: #E5E7EB;
-    font-size: 28px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
